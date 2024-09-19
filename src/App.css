@@ -60,3 +60,40 @@ section{
 .bold{
   font-weight: bold;
 }
+
+@media screen and (max-width:768px) {
+
+  
+  .description{
+    /* width: 70px; */
+    /* height: 217px; */
+    overflow: hidden;
+  }
+
+}
+@media screen and (max-width:568px) {
+  .page-title {
+    font-size: 1.9rem;
+  }
+  body{
+    font-size :0.5rem;
+  }
+  .description{
+    width: 170px;
+    height: 217px;
+    overflow: hidden;
+  }
+  .main-photo{
+    width: 110px;
+    height: 222px;
+  }
+
+  .gap {
+    font-size: 0.55rem;
+    margin-left: 6px;
+}
+.content{
+  gap: 10px;
+}
+
+}
