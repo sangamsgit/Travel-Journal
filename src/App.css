@@ -84,7 +84,7 @@ section{
     overflow: hidden;
   }
   .main-photo{
-    width: 110px;
+    width: 131px;
     height: 222px;
   }
 
@@ -94,6 +94,18 @@ section{
 }
 .content{
   gap: 10px;
+  margin-bottom: -45px;
+  padding-block: 3px;
+}
+.bold{
+  font-size: 0.7rem;
+}
+.down{
+  margin-bottom: -6px;
+}
+.title{
+  font-size: 1rem;
+  margin-bottom: -6px;
 }
 
 }
